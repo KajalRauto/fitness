@@ -8,11 +8,16 @@
 
 
 .navbar{
-    background-color: black;
     color: white;
+    padding-left: 3%;    
+    background: black;
+    position: fixed;
+    top: 0;
+    z-index: 20;
 }
 .navbar-brand{
     color:white;
+    font-family: 'Dancing Script', cursive;
     
 }
 .navbar-brand span{
@@ -37,7 +42,17 @@ span{
 .fa-chart-simple-horizontal{
     color: white;
 }
-
+.btn9{
+    border: 1px solid white;
+    height:35px;
+    width: 90px;
+    background-color: transparent ;
+    color: white;
+}
+.btn9:hover{
+    background: linear-gradient(90deg, #fe9418 0%, #f5634b 100%);
+    transition: all 1s;
+}
 
 
 .main{
@@ -47,12 +62,12 @@ span{
     height: 110vh;
 }
 .main h1{
-    font-size: 5rem;
+    font-size: 3.5rem;
     font-weight: 800;
 }
 .btn1{
-    height:55px;
-    width: 140px;
+    height:45px;
+    width: 170px;
     color: white;
     outline: none;
     border: none;
@@ -63,8 +78,17 @@ span{
     background: linear-gradient(90deg, #fe9418 0%, #f5634b 100%);
     transition: all 1s;
 }
-
-
+.btn5{
+    border: 3px solid #f5634b;
+    height:45px;
+    width: 170px;
+    background-color: transparent ;
+    color: white;
+}
+.btn5:hover{
+    background: linear-gradient(90deg, #fe9418 0%, #f5634b 100%);
+    transition: all 1s;
+}
 
 .details{
     margin: -50px;
@@ -105,11 +129,25 @@ span{
 }
 .more p{
     font-weight: lighter;
-}
-p{
     font-size: 1.1rem;
 }
 
+.btn8{
+    border: 1px solid #fe9418;
+    height:45px;
+    width: 170px;
+    background-color: transparent ;
+    color: black;
+}
+.btn8:hover{
+    background: linear-gradient(90deg, #fe9418 0%, #f5634b 100%);
+    transition: all 1s;
+    color: white;
+}
+
+.belt{
+    font-weight:lighter;
+}
 
 
 .discover{
@@ -136,10 +174,18 @@ p{
 .services h5{
     font-weight: 700;
 }
-
+.services{
+    font-weight:lighter;
+}
 
 
 .fa{
+    font-size: 2.5rem;
+}
+.fa-accessible-icon{
+    font-size: 2.5rem;
+}
+.fa-regular{
     font-size: 2.5rem;
 }
 .back:hover .fa{
@@ -247,7 +293,7 @@ p{
     height: 4px;
     width: 6rem;
     background-color: #f76c2f;
-    margin-left: 5%;
+    /* margin-left: 3%; */
 }
 
 
@@ -257,12 +303,12 @@ p{
     background: black;
     color: white;
 }
-.footer h4,h5{
-    font-weight: 900;
-}
+/* .footer h4,h5{
+    font-weight: 700;
+} */
 .footer p{
-    margin: 0;
     color: white;
+    font-weight: 400;
 }
 .link{
     cursor: pointer;
@@ -277,18 +323,27 @@ p{
 
 .social{
     color: white;
-    font-size: 24px;
     transition: all 0.4s;
 }
-
-.social:hover{
+.fa-brands{
+    font-size: large;
+}
+/* .social:hover{
     transition: all 0.4s;
     color: rgb(236, 83, 83);
     cursor: pointer;
+} */
+
+.wid{
+width: 80%;
 }
-
-
-
-
-
+.wid2{
+    width:98%;
+}
+.wid1{
+width: 20%;
+}
+.wid3{
+    width:10%;
+}
 
